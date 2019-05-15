@@ -16,5 +16,28 @@ const getList = (author, keyword) => {
         }
     ]
 
-}
-module.exports = {getList}
+};
+const getDetail =(id)=>{
+    return[
+        {
+            id: "2",
+                title: "标题23123123123",
+            content: "内容2",
+            createData: "1557880001929",
+            author: "lisi"
+        }
+    ]
+
+};
+const newBLog =(blogData={})=>{
+    return {
+        id:3
+    }
+};
+const updateBlog =(id,blogData ={})=>{
+    return true
+};
+const delBlog =(id)=>{
+    return true
+};
+module.exports = {getList, getDetail,newBLog,updateBlog,delBlog};
