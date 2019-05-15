@@ -1,6 +1,5 @@
-const getList  = (author, keyword) => {
-    return
-    [
+const getList = (author, keyword) => {
+    return[
         {
             id: "1",
             title: "标题1",
@@ -18,4 +17,4 @@ const getList  = (author, keyword) => {
     ]
 
 }
-module.exports = { getList }
+module.exports = {getList}
